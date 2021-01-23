@@ -14,7 +14,8 @@ draw_key_TA <-  function(data, params, size) {
 }
 
 # TAGrob
-TAGrob <- function(x, y, size, TA = "papilio", geom_key = list(papilio = "papilio.png")) {
+TAGrob <- function(x, y, size, TA = "papilio", geom_key = list(papilio = "papilio.png",
+                                                               meta = "meta.png")) {
 
   filename <- system.file(geom_key[[unique(TA)]], package = "ggprotist", mustWork = TRUE)
   img <- as.raster(png::readPNG(filename))
