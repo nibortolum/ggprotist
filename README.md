@@ -14,7 +14,7 @@ your ggplot graphs
 
 ## Installation
 
-ggprotist ca be installed with:
+ggprotist can be installed with:
 
 ``` r
 # install.packages("devtools")

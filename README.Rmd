@@ -23,7 +23,7 @@ The goal of ggprotist is to provide nice pictures of protists to plot on your gg
 
 ## Installation
 
-ggprotist ca be installed with:
+ggprotist can be installed with:
 
 ``` r
 # install.packages("devtools")
